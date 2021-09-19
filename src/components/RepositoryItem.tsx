@@ -8,7 +8,7 @@ interface RepositoryItemProps {
 
 export function RepositoryItem(props: RepositoryItemProps) {
     return (
-        <li>         {/*propss.repository?.name ?? 'uniform' ==> repository?.name se essa propriedade não existir não irá apresentar erro, ?? é a mesma coisa de || (or)*/}     
+        <li>         
             <strong> {props.repository?.name}  </strong> 
             <p>{props.repository?.description}</p>
 
